@@ -9,8 +9,8 @@ def adicionar():
     registrar(lista)
     st.session_state["nova_tarefa"] = ""
 
-st.title("Task-Maker")
-st.subheader("Meu primeiro aplicativo web com Python")
+st.title("Task-Web")
+st.subheader("Lista de tarefas para produtividade!")
 
 for i, tarefa in enumerate(lista):
     tarefa_limpa = tarefa.strip()
